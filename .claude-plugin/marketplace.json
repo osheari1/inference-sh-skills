@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "inference-sh-skills",
+  "description": "AI agent skills for 250+ models via inference.sh CLI",
+  "owner": {
+    "name": "inference.sh",
+    "email": "support@inference.sh"
+  },
+  "plugins": [
+    {
+      "name": "inference-sh",
+      "description": "AI agent skills for 250+ models via inference.sh CLI - generate images with FLUX, create videos with Veo, call LLMs, search the web, and more",
+      "author": {
+        "name": "inference.sh",
+        "email": "support@inference.sh"
+      },
+      "category": "ai",
+      "source": ".",
+      "homepage": "https://inference.sh"
+    }
+  ]
+}
